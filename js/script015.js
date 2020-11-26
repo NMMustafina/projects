@@ -15,17 +15,17 @@
 //'use strict';
 
 // Код возьмите из предыдущего домашнего задания
-// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?","");
 
 
-// const personalMovieDB = {
-//     count:numberOfFilms,
-//     movies:{},
-//     actors:{},
-//     genres:[],
-//     privat:false
-// };
-// //console.log(personalMovieDB);
+const personalMovieDB = {
+    count:numberOfFilms,
+    movies:{},
+    actors:{},
+    genres:[],
+    privat:false
+};
+//console.log(personalMovieDB);
 
 // const qw1 = prompt("Один из последних просмотренных фильмов?",""),
 //  qw2 = prompt("На сколько оцените его?",""),
@@ -40,7 +40,7 @@ for (let i=0; i<2; i++){
     console.log(qw1);
 }
 
-for (let i=0; i<2; i++){
+for (let k=0; k<2; k++){
     const qw2 = prompt("На сколько оцените его?","");
     console.log(qw2);
 }
