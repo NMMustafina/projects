@@ -1,3 +1,7 @@
+//git add -A
+//git commit -a -m"task015"
+//git push
+
 // "use strict";
 
 // const category = 'toys';
